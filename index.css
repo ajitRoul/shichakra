@@ -1,0 +1,59 @@
+
+.navbar {
+    background-color: #F4C430 !important;
+}
+
+.nav-link {
+    color: #D3212D ;
+}
+
+.heading {
+    color: #D3212D ;
+    text-align: center;
+    margin-bottom: 12px;
+    margin-top: 12px;
+}
+
+.nav-link:hover, .nav-link.active{
+    color: #850101 !important ;
+}
+
+.logo {
+    width: 40px;
+}
+
+.home {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.home section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 50%;
+}
+
+.chakra img {
+    width: 50%;
+}
+
+@media only screen and (max-width: 600px) {
+    .home {
+        flex-direction: column;
+    }
+
+    .home section {
+        width: 100%;
+    }
+    .chakra img {
+        width: 100%;
+    }
+}
+
+.vision {
+    text-align: center;
+}
+
+
